@@ -1,5 +1,6 @@
-import { FormEvent, useEffect, useMemo, useState } from 'react'
-import { Activity, ArrowDownRight, ArrowUpRight, Building2, CalendarClock, CheckCircle2, ChevronDown, CircleDollarSign, Globe2, LayoutDashboard, LogOut, Menu, Plus, Search, Settings2, Target, Users, X, LoaderCircle, Mail, Phone, MapPin, ExternalLink } from 'lucide-react'
+import { useEffect, useMemo, useState } from 'react'
+import type { FormEvent } from 'react'
+import { Activity, ArrowDownRight, ArrowUpRight, Building2, CalendarClock, CheckCircle2, ChevronDown, CircleDollarSign, LayoutDashboard, LogOut, Menu, Plus, Search, Settings2, Target, Users, X, LoaderCircle, Mail, MapPin, ExternalLink } from 'lucide-react'
 import { isSupabaseConfigured, supabase } from './lib/supabase'
 
 type Lead = {
